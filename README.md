@@ -1,22 +1,56 @@
 # PWA
-Guía de Instalación por Dispositivo
+# 🕰️ Reloj Digital PWA - Guía de Usuario y Manual Técnico
 
-Para disfrutar de la experiencia completa de aplicación nativa (sin barras de navegador y con funcionamiento offline), sigue las instrucciones según tu sistema:
+Este proyecto es una **Progressive Web Application (PWA)** diseñada bajo estándares de alto rendimiento para dispositivos móviles y escritorio. Simula un reloj despertador digital con estética de neón, permitiendo su instalación como aplicación nativa y funcionamiento **totalmente offline**.
 
-### 🌐 Escritorio (Windows / macOS / Linux)
-1. Abre el enlace en **Google Chrome** o **Microsoft Edge**.
-2. En la barra de direcciones (derecha), haz clic en el icono de **Instalar** (una computadora con una flecha hacia abajo).
-3. Confirma la instalación y se creará un acceso directo en tu escritorio.
+🔗 **Acceso a la Aplicación:** [https://rex2025rex.github.io/PWA/](https://rex2025rex.github.io/PWA/)
+
+---
+
+## 🛠️ Especificaciones Técnicas
+Para garantizar la **confiabilidad** y **velocidad** (pilares de una PWA), se implementaron los siguientes recursos:
+- **Service Worker (v7):** Gestión de caché para soporte sin conexión a internet.
+- **Web App Manifest:** Configuración de identidad visual e instalabilidad.
+- **Diseño Responsivo:** Interfaz adaptativa mediante CSS moderno (`clamp`, Flexbox).
+
+---
+
+## 📲 Manual de Instalación Paso a Paso
+
+Sigue las instrucciones según tu dispositivo para disfrutar de la experiencia inmersiva (sin barras de navegador).
+
+### 🖥️ Escritorio (Windows / macOS)
+1. **Abrir:** Ingresa al [Link del Proyecto](https://rex2025rex.github.io/PWA/) en **Google Chrome** o **Edge**.
+2. **Localizar:** Busca en la barra de direcciones (extremo derecho) el icono de una **pantalla con una flecha**.
+3. **Instalar:** Haz clic en el icono y selecciona **"Instalar"**. 
+4. **Resultado:** Se creará un acceso directo en tu escritorio y la app se abrirá en una ventana independiente.
 
 ### 🤖 Android (Google Chrome)
-1. Abre el enlace del proyecto.
-2. Espera unos segundos a que aparezca el aviso automático de "Agregar a la pantalla de inicio".
-3. Si no aparece, toca los **tres puntos (⋮)** en la esquina superior derecha.
-4. Selecciona la opción **"Instalar aplicación"**.
+1. **Abrir:** Accede al enlace desde tu dispositivo.
+2. **Opciones:** Toca los **tres puntos (⋮)** en la esquina superior derecha.
+3. **Instalar:** Selecciona la opción **"Instalar aplicación"** o **"Agregar a la pantalla de inicio"**.
+4. **Confirmar:** Presiona "Instalar" y el icono aparecerá junto a tus otras apps.
 
-### 🍎 iOS / iPhone (Safari)
-*Nota: Por políticas de Apple, Safari no muestra un botón de instalación automática.*
-1. Abre el enlace exclusivamente en el navegador **Safari**.
-2. Toca el botón **Compartir** (el icono del cuadrado con una flecha hacia arriba en la barra inferior).
-3. Desliza hacia abajo y selecciona **"Agregar a la pantalla de inicio"**.
-4. Presiona **"Agregar"** en la esquina superior derecha para confirmar.
+### 🍎 iPhone / iPad (Safari)
+*Nota: iOS no muestra botones automáticos; debe realizarse manualmente.*
+1. **Abrir:** Ingresa al enlace exclusivamente desde **Safari**.
+2. **Compartir:** Toca el botón **Compartir** (cuadrado con flecha hacia arriba 📤).
+3. **Agregar:** Desliza el menú hacia abajo y selecciona **"Agregar a la pantalla de inicio"**.
+4. **Finalizar:** Toca **"Agregar"** en la esquina superior derecha.
+
+---
+
+## 📁 Estructura del Repositorio
+Para cumplir con los criterios de evaluación, el proyecto incluye:
+*   `index.html`: Estructura semántica y metadatos de autoría.
+*   `style.css`: Estilos de despertador retro y reglas de responsividad.
+*   `app.js`: Lógica del tiempo (1s) y registro del Service Worker.
+*   `sw.js`: Estrategia de caché para funcionamiento offline.
+*   `manifest.json`: Archivo de configuración PWA.
+*   `icon-192.png` & `icon-512.png`: Iconografía oficial en alta resolución.
+
+---
+
+**Desarrollado por:** Elizabeth Orozco Torres  
+**Materia:** Desarrollo de Aplicaciones Multiplataforma  
+**Maestría en Ingeniería y Desarrollo de Software**
