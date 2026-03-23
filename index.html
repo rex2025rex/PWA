@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a1a">
+    <title>Reloj Digital PWA - Mi Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <!-- Contenedor principal para centrar todo -->
+    <div class="interfaz-total">
+        
+        <!-- Placa de Identificación -->
+        <div class="presentacion">
+            <p class="etiqueta-autor">Desarrollado por:</p>
+            <h2 class="nombre-autor">Elizabeth Orozco Torres</h2>
+            <p class="materia">Materia: Desarrollo Móvil</p>
+        </div>
+
+        <!-- Carcasa del Despertador -->
+        <div class="despertador">
+            <div class="pantalla">
+                <div class="brillo-reflejo"></div>
+                <!-- El reloj que se actualiza por segundo -->
+                <div id="reloj" class="reloj">00:00:00</div>
+            </div>
+            <div class="marca">PWA DIGITAL SERIES</div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
