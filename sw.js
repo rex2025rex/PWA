@@ -1,5 +1,5 @@
 // Nombre 
-const NOMBRE_CACHE = 'reloj-pwa-v7';
+const NOMBRE_CACHE = 'reloj-pwa-v8';
 
 // Archivos que funcionan offline
 const ARCHIVOS_PARA_CACHE = [
